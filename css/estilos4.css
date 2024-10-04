@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/atardecer.jpg");
+  background-size: cover; /* Opcional: ajusta la imagen para cubrir todo el elemento */
+  background-position: center; /* Opcional: centra la imagen en el elemento */
+}
+
+.image-box{
+  width: 350px;
+  height: 350px;
+  position: center;
+  border-radius: 15%;
+}
+
+.box{
+  width: 430px;
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.box h3{
+  font-size: 35px;
+  letter-spacing: 4px;
+  font-weight: 600px;
+  margin-bottom: 5px;

@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/libros2.jpg);
+	background-size: cover;
+	font-family: Century Gothic;
+}
+
+.image-box{
+	width: 130px;
+	height: 230px;
+	box-shadow: 10px -1px 24px 0px rgba(0, 0, 0, 0.75);
+	border-radius: 10%;
+}
+
+.box{
+	width: 430px;
+	background: rgba(237, 187, 153, 1.0);
+	margin: 15px auto;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.box h1{
+	font-size: 35px;
+	letter-spacing: 4px;
+	font-weight: 600px;
+	border-top: 2px;
+	margin-bottom: 5px;
+	color: #77400e;
+	text-shadow: 2px 2px 4px #6a6765;
+}
+
+.box h2{
+	font-size: 35px;
+	letter-spacing: 4px;
+	font-weight: 600px;
+	margin-bottom: 5px;
+}
+
+.box p{
+	text-align: justify;
+	font-weight: 300px;
+}
+
+ul{
+	list-style: none;
+	margin-top: 10px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+.box ul li a{
+	color: #FFFFFF;
+	font-size: 30px;
+	padding: 7px 13px;
+	dosplay: block;
+	transition: all 0.7s ease-in-out;
+}
+
+.box ul li a:hover{
+	color: #928f8d;
+	transform: scale(1.4);
+}
